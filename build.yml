@@ -1,0 +1,26 @@
+sdk: "/Users/bhanu/.gems/gems/rhodes-3.1.0"
+sdkversion: 3.1.0
+name: imageupload
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+wmsdk: "Windows Mobile 6 Professional SDK (ARMV4I)"
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator4.3
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.imageupload
+  BundleURLScheme: imageupload
+wp:
+  productid: '562dc640-d12a-012e-2d0f-60c54789b794'
+symbian:
+    uid: '0xea7dae28'
+
+extensions: ["json", "another-extension"]
+
+capabilities:
+ - camera
